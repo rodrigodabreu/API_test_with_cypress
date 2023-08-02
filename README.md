@@ -16,9 +16,7 @@ Run `npm install` (or `npm i` for the short version) to install the dev dependen
 
 ## Tests
 
-> **Note:** Before running the tests, make a copy of the [`cypress.env.example.json`](./cypress.env.example.json) file as `cypress.env.json`, and update the `TYPEFORM_ACCESS_TOKEN`, `username`, `password`, etc. accordingly.
->
-> The `cypress.env.json` file is included on [`.gitignore`](./.gitignore) and you're safe that confidential info won't be versioned.
+> **Note:** Before running the tests, make a copy of the [`cypress.env.json`](./cypress.env.example.json) file as `cypress.env.json`, and update the `TYPEFORM_ACCESS_TOKEN`, `username`, `password`, etc. accordingly.
 
 Run `npm test` (or `npm t` for the short version) to run the test in headless mode.
 
